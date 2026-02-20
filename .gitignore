@@ -1,6 +1,19 @@
+# Dependencies
+node_modules
+package-lock.json
+
+# Build output
+dist
+.env
+
 # CodeBuddy
 .codebuddy/*
 !.codebuddy/skills/
 !.codebuddy/rules/
 !.codebuddy/prompts/
 !.codebuddy/config.json
+
+# Editor
+.vscode
+.DS_Store
+*.log
